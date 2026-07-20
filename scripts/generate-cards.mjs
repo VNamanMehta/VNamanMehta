@@ -1,17 +1,3 @@
-// Generates the profile cards in assets/ from GitHub's own GraphQL API.
-//
-// Nothing here depends on a third-party rendering service. We pull the raw
-// contribution numbers from GitHub and draw the SVGs ourselves, so the only
-// thing that can ever be unavailable is GitHub itself — and if that is down,
-// the profile page is down too. The SVG markup below is the template; the API
-// supplies the data that gets substituted into it.
-//
-// Usage: GITHUB_TOKEN=<token> PROFILE_USER=<login> node scripts/generate-cards.mjs
-//
-// The token should be a PAT with `repo` scope if you want private
-// contributions counted. The default Actions GITHUB_TOKEN only sees public
-// ones, which makes the totals look much lower than your profile shows.
-
 import { writeFileSync, mkdirSync } from "node:fs";
 
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -27,11 +13,7 @@ const PURPLE = "#7c3aed";
 const CYAN = "#06b6d4";
 const TEXT = "#c0caf5";
 const MUTED = "#7f88a8";
-
 const FONT = "Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif";
-
-// Warm accent for the streak flame. Deliberately off-palette: a purple or cyan
-// flame does not read as fire.
 const FIRE = "#f97316";
 const FIRE_CORE = "#fbbf24";
 
@@ -107,7 +89,6 @@ function fmtRange(startIso, endIso) {
 
   if (startYear === thisYear && endYear === thisYear) return base;
   if (startYear === endYear) return `${base}, ${endYear}`;
-  // A streak spanning New Year needs both years to make sense.
   return `${fmtShort(startIso)}, ${startYear} - ${fmtShort(endIso)}, ${endYear}`;
 }
 
@@ -140,7 +121,7 @@ function computeStats(days) {
 
   for (let i = days.length - 1; i >= 0; i--) {
     const day = days[i];
-    if (day.date > today) continue; // calendar weeks can run past today
+    if (day.date > today) continue;
     if (day.count === 0) {
       if (day.date === today && current === 0) continue;
       break;
@@ -166,9 +147,6 @@ function computeStats(days) {
 
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-// A flame, drawn as a path so the card stays a single self-contained file with
-// no font or emoji dependency — an emoji glyph would render differently on
-// every platform, and not at all in some SVG rasterisers.
 function flame(cx, cy, scale = 1) {
   return `
   <g transform="translate(${cx}, ${cy}) scale(${scale})">
@@ -181,10 +159,6 @@ function streakCard(s) {
   const W = 495;
   const H = 195;
   const col = W / 3;
-
-  // All three columns share the same baselines so the labels line up, with the
-  // middle number sitting inside a ring at the same optical height as the
-  // numbers either side of it.
   const numberY = 88;
   const labelY = 140;
   const rangeY = 162;
@@ -193,9 +167,6 @@ function streakCard(s) {
 
   const panel = (i, value, label, range, accent, ring = false) => {
     const cx = col * i + col / 2;
-
-    // The ring is broken at the top by a background-coloured disc so the flame
-    // sits in a gap rather than on top of the stroke.
     const ringMarkup = ring
       ? `
       <circle cx="${cx}" cy="${ringCY}" r="${ringR}" fill="none" stroke="${accent}" stroke-width="2.5"/>
