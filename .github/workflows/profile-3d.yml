@@ -2,9 +2,8 @@ name: Generate 3D Contribution Skyline
 
 on:
   schedule:
-    # Runs once a day at 18:00 UTC
     - cron: "0 18 * * *"
-  workflow_dispatch:   # Lets you run it manually from the Actions tab
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -24,8 +23,6 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # The action's output path is hardcoded to profile-3d-contrib/ at the
-      # repo root, so relocate the SVGs into assets/ after each generation.
       - name: Move generated SVGs into assets/
         run: |
           mkdir -p assets/profile-3d-contrib
