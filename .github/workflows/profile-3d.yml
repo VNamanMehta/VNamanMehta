@@ -24,6 +24,14 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # The action's output path is hardcoded to profile-3d-contrib/ at the
+      # repo root, so relocate the SVGs into assets/ after each generation.
+      - name: Move generated SVGs into assets/
+        run: |
+          mkdir -p assets/profile-3d-contrib
+          mv -f profile-3d-contrib/* assets/profile-3d-contrib/
+          rmdir profile-3d-contrib
+
       - name: Commit & push the generated SVGs
         run: |
           if [[ `git status --porcelain` ]]; then
