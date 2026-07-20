@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Contribution activity over the last 90 days">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="10" fill="#1a1b27"/>
+  <text x="60" y="32" fill="#c0caf5" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Contributions — last 90 days</text>
+  
+  <line x1="60" y1="365.0" x2="1170" y2="365.0" stroke="#7f88a8" stroke-opacity="0.18"/>
+  <text x="48" y="369.0" text-anchor="end" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">0</text>
+  <line x1="60" y1="289.0" x2="1170" y2="289.0" stroke="#7f88a8" stroke-opacity="0.18"/>
+  <text x="48" y="293.0" text-anchor="end" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">7</text>
+  <line x1="60" y1="202.1" x2="1170" y2="202.1" stroke="#7f88a8" stroke-opacity="0.18"/>
+  <text x="48" y="206.1" text-anchor="end" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">15</text>
+  <line x1="60" y1="126.0" x2="1170" y2="126.0" stroke="#7f88a8" stroke-opacity="0.18"/>
+  <text x="48" y="130.0" text-anchor="end" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">22</text>
+  <line x1="60" y1="50.0" x2="1170" y2="50.0" stroke="#7f88a8" stroke-opacity="0.18"/>
+  <text x="48" y="54.0" text-anchor="end" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">29</text>
+  <polygon points="60,365 60.0,332.4 72.5,365.0 84.9,365.0 97.4,365.0 109.9,365.0 122.4,365.0 134.8,365.0 147.3,365.0 159.8,365.0 172.2,354.1 184.7,332.4 197.2,365.0 209.7,354.1 222.1,343.3 234.6,365.0 247.1,365.0 259.6,365.0 272.0,365.0 284.5,299.8 297.0,267.2 309.4,354.1 321.9,365.0 334.4,365.0 346.9,365.0 359.3,365.0 371.8,50.0 384.3,365.0 396.7,365.0 409.2,365.0 421.7,365.0 434.2,365.0 446.6,365.0 459.1,365.0 471.6,365.0 484.0,365.0 496.5,354.1 509.0,365.0 521.5,365.0 533.9,169.5 546.4,332.4 558.9,299.8 571.3,299.8 583.8,332.4 596.3,289.0 608.8,365.0 621.2,223.8 633.7,343.3 646.2,354.1 658.7,365.0 671.1,365.0 683.6,365.0 696.1,365.0 708.5,365.0 721.0,365.0 733.5,365.0 746.0,365.0 758.4,365.0 770.9,365.0 783.4,365.0 795.8,365.0 808.3,365.0 820.8,365.0 833.3,365.0 845.7,365.0 858.2,365.0 870.7,365.0 883.1,365.0 895.6,365.0 908.1,365.0 920.6,365.0 933.0,365.0 945.5,365.0 958.0,365.0 970.4,365.0 982.9,365.0 995.4,365.0 1007.9,365.0 1020.3,365.0 1032.8,365.0 1045.3,365.0 1057.8,365.0 1070.2,365.0 1082.7,365.0 1095.2,365.0 1107.6,245.5 1120.1,332.4 1132.6,365.0 1145.1,332.4 1157.5,332.4 1170.0,321.6 1170.0,365" fill="url(#fade)"/>
+  <polyline points="60.0,332.4 72.5,365.0 84.9,365.0 97.4,365.0 109.9,365.0 122.4,365.0 134.8,365.0 147.3,365.0 159.8,365.0 172.2,354.1 184.7,332.4 197.2,365.0 209.7,354.1 222.1,343.3 234.6,365.0 247.1,365.0 259.6,365.0 272.0,365.0 284.5,299.8 297.0,267.2 309.4,354.1 321.9,365.0 334.4,365.0 346.9,365.0 359.3,365.0 371.8,50.0 384.3,365.0 396.7,365.0 409.2,365.0 421.7,365.0 434.2,365.0 446.6,365.0 459.1,365.0 471.6,365.0 484.0,365.0 496.5,354.1 509.0,365.0 521.5,365.0 533.9,169.5 546.4,332.4 558.9,299.8 571.3,299.8 583.8,332.4 596.3,289.0 608.8,365.0 621.2,223.8 633.7,343.3 646.2,354.1 658.7,365.0 671.1,365.0 683.6,365.0 696.1,365.0 708.5,365.0 721.0,365.0 733.5,365.0 746.0,365.0 758.4,365.0 770.9,365.0 783.4,365.0 795.8,365.0 808.3,365.0 820.8,365.0 833.3,365.0 845.7,365.0 858.2,365.0 870.7,365.0 883.1,365.0 895.6,365.0 908.1,365.0 920.6,365.0 933.0,365.0 945.5,365.0 958.0,365.0 970.4,365.0 982.9,365.0 995.4,365.0 1007.9,365.0 1020.3,365.0 1032.8,365.0 1045.3,365.0 1057.8,365.0 1070.2,365.0 1082.7,365.0 1095.2,365.0 1107.6,245.5 1120.1,332.4 1132.6,365.0 1145.1,332.4 1157.5,332.4 1170.0,321.6" fill="none" stroke="#06b6d4" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="60.0" cy="332.4" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="172.2" cy="354.1" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="184.7" cy="332.4" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="209.7" cy="354.1" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="222.1" cy="343.3" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="284.5" cy="299.8" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="297.0" cy="267.2" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="309.4" cy="354.1" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="371.8" cy="50.0" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="496.5" cy="354.1" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="533.9" cy="169.5" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="546.4" cy="332.4" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="558.9" cy="299.8" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="571.3" cy="299.8" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="583.8" cy="332.4" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="596.3" cy="289.0" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="621.2" cy="223.8" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="633.7" cy="343.3" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="646.2" cy="354.1" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="1107.6" cy="245.5" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="1120.1" cy="332.4" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="1145.1" cy="332.4" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="1157.5" cy="332.4" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  <circle cx="1170.0" cy="321.6" r="3.5" fill="#1a1b27" stroke="#06b6d4" stroke-width="2"/>
+  
+  <text x="60.0" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">Apr 22</text>
+  <text x="159.8" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">Apr 30</text>
+  <text x="259.6" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">May 8</text>
+  <text x="359.3" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">May 16</text>
+  <text x="459.1" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">May 24</text>
+  <text x="558.9" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">Jun 1</text>
+  <text x="658.7" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">Jun 9</text>
+  <text x="758.4" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">Jun 17</text>
+  <text x="858.2" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">Jun 25</text>
+  <text x="958.0" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">Jul 3</text>
+  <text x="1057.8" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">Jul 11</text>
+  <text x="1157.5" y="391" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12">Jul 19</text>
+</svg>

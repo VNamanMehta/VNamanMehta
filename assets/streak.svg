@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" role="img" aria-label="GitHub contribution streak">
+  <rect width="495" height="195" rx="10" fill="#1a1b27"/>
+  <line x1="165" y1="34" x2="165" y2="165" stroke="#7f88a8" stroke-opacity="0.25"/>
+  <line x1="330" y1="34" x2="330" y2="165" stroke="#7f88a8" stroke-opacity="0.25"/>
+  
+    <g>
+      <text x="82.5" y="88" text-anchor="middle" fill="#06b6d4" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="36" font-weight="700">482</text>
+      <text x="82.5" y="140" text-anchor="middle" fill="#c0caf5" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">Total Contributions</text>
+      <text x="82.5" y="162" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11">Jun 28, 2023 - Present</text>
+    </g>
+  
+    <g>
+      <circle cx="247.5" cy="74" r="40" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+      <circle cx="247.5" cy="34" r="13" fill="#1a1b27"/>
+      
+  <g transform="translate(247.5, 34) scale(0.85)">
+    <path d="M0,-13 C5,-7 9,-4.5 9,1.5 C9,7.5 4.8,12 0,12 C-4.8,12 -9,7.5 -9,1.5 C-9,-4.5 -5,-7 0,-13 Z" fill="#f97316"/>
+    <path d="M0,-4 C2.6,-1 4.2,0.6 4.2,3.4 C4.2,6.6 2.3,9 0,9 C-2.3,9 -4.2,6.6 -4.2,3.4 C-4.2,0.6 -2.6,-1 0,-4 Z" fill="#fbbf24"/>
+  </g>
+      <text x="247.5" y="88" text-anchor="middle" fill="#7c3aed" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="30" font-weight="700">3</text>
+      <text x="247.5" y="140" text-anchor="middle" fill="#c0caf5" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">Current Streak</text>
+      <text x="247.5" y="162" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11">Jul 18 - Jul 20</text>
+    </g>
+  
+    <g>
+      <text x="412.5" y="88" text-anchor="middle" fill="#06b6d4" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="36" font-weight="700">7</text>
+      <text x="412.5" y="140" text-anchor="middle" fill="#c0caf5" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="600">Longest Streak</text>
+      <text x="412.5" y="162" text-anchor="middle" fill="#7f88a8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11">Sep 24 - Sep 30, 2025</text>
+    </g>
+</svg>
