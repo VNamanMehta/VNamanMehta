@@ -1,15 +1,9 @@
 name: Refresh Profile Cards
 
-# Draws assets/streak.svg and assets/activity-graph.svg from GitHub's own
-# GraphQL API using scripts/generate-cards.mjs, then commits them. The SVG
-# templates live in this repo, so no third-party rendering service sits between
-# the data and the profile — the only dependency is GitHub itself.
-
 on:
   schedule:
-    # Runs once a day at 02:00 UTC
     - cron: "0 2 * * *"
-  workflow_dispatch:   # Lets you run it manually from the Actions tab
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -28,9 +22,6 @@ jobs:
 
       - name: Generate cards
         env:
-          # METRICS_TOKEN is a PAT with `repo` scope. The default GITHUB_TOKEN
-          # only sees public contributions, which would drop the totals
-          # substantially — private work is the majority of the count here.
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           PROFILE_USER: ${{ github.repository_owner }}
         run: node scripts/generate-cards.mjs
